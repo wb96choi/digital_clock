@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "digital-7_mono";
+  src: url("digital-7/digital-7_mono.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center; /* 수평 */
+  align-items: center; /* 수직 */
+  height: 100vh;
+}
+
+.clock {
+  background-color: #999;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.6), 0 0 8px rgba(0, 0, 0, 0.7) inset;
+  width: 400px;
+  height: 140px;
+  display: flex;
+  justify-content: center; /* 수평 */
+  align-items: center; /* 수직 */
+  border: 10px solid #333;
+  border-radius: 10px;
+  font-size: 70px;
+  font-family: "digital-7_mono", monospace;
+}
+.clock .container {
+  display: flex;
+}
+
+.app > h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
